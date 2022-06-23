@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types";
 import styled from "styled-components"
 import ClearIcon from '@mui/icons-material/Clear';
 
@@ -23,6 +23,12 @@ background:${(props) => (props.color === 'primary' ? '#605DEC' :
 const Alert = ({ children, color, onClose }) => (
     <StyledDiv color={color}>{children}<ClearIcon onClick={onClose}/></StyledDiv>
 );
+
+
+Alert.propTypes = {
+    onClose: PropTypes.func.isRequired,
+
+};
 
 
 
