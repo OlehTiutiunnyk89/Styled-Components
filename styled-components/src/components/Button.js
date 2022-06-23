@@ -28,17 +28,17 @@ border-radius: 4px;
 
 `
 const StyledLargeButton = styled(StyledButton)`
-Width: 200px;
-Height: 100px;
-Top:20px;
-Left:20px;
+width: 200px;
+height: 100px;
+top:20px;
+left:20px;
 `
 
 const StyledNormalButton = styled(StyledButton)`
-Width: 150px;
-Height: 70px;
-Top:20px;
-Left:20px;
+width: 150px;
+height: 70px;
+top:20px;
+left:20px;
 `
 
 
