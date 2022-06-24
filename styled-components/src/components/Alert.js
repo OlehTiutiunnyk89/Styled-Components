@@ -27,6 +27,8 @@ const Alert = ({ children, color, onClose }) => (
 
 Alert.propTypes = {
     onClose: PropTypes.func.isRequired,
+    color: PropTypes.string.isRequired,
+    children: PropTypes.string.isRequired
 
 };
 

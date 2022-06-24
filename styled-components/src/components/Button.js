@@ -53,5 +53,11 @@ const Button = ({ children, color, size = "small",disabled}) => {
   }
 };
 
+Button.propTypes = {
+  color: PropTypes.string.isRequired,
+  children: PropTypes.string.isRequired
+
+};
+
 
 export default Button;
